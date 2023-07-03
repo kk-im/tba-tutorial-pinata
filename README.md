@@ -6,7 +6,8 @@ ERC-6551 gives NFTs its own wallet address. This means your NFT will be able to 
 A tokenbound account is
 
 ### What's so great about it?
-- It requires zero changes to your NFT smart contract
+- Backward compatability (It requires zero changes to your NFT smart contract)
+- It brings your NFTs to life (finally!)
 
 Read more about ERC-6551 [here](https://eips.ethereum.org/EIPS/eip-6551)
 
@@ -14,11 +15,4 @@ Read more about ERC-6551 [here](https://eips.ethereum.org/EIPS/eip-6551)
 This repository is used in conjunction with Remix IDE, an instant online editor with a GUI for developing smart contracts.
 
 Simple clone this into a new Remix workspace, compile the contracts, deploy and voila. You're on your way!
-
-## Repository Anatomy
-
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
-
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
 
